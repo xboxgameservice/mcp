@@ -1,0 +1,16 @@
+.env
+.env.*
+*.csv
+*.xlsx
+!examples/*.xlsx
+!examples/*.csv
+!assets/*.png
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+
+# registry publisher binary and signing key — never commit
+mcp-publisher
+*.pem

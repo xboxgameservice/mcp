@@ -1,0 +1,24 @@
+{
+  "name": "magellan-data",
+  "displayName": "Magellan Data",
+  "version": "1.0.0",
+  "description": "Corporate ownership intelligence for GTM teams — parent companies, PE backing, corporate families, and portfolio siblings, over lists of up to 5,000 companies.",
+  "author": {
+    "name": "Magellan Data",
+    "url": "https://magellandata.io"
+  },
+  "homepage": "https://magellandata.io",
+  "documentation": "https://docs.magellandata.io",
+  "repository": "https://github.com/sorrek/mcp",
+  "license": "MIT",
+  "keywords": [
+    "sales",
+    "gtm",
+    "private-equity",
+    "company-data",
+    "enrichment",
+    "account-mapping"
+  ],
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills"
+}

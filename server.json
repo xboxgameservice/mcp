@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.magellandata/spotlight",
+  "title": "Magellan Data Spotlight",
+  "description": "Corporate ownership intelligence: parent companies, PE backing, corporate families, portfolio siblings.",
+  "version": "1.0.0",
+  "websiteUrl": "https://magellandata.io",
+  "repository": {
+    "url": "https://github.com/sorrek/mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://spotlight-mcp.magellandata.io/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token using your Magellan Data API key (mgln_sk_live_...), generated in the Spotlight dashboard.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

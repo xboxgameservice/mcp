@@ -1,0 +1,15 @@
+{
+  "name": "magellan-data",
+  "owner": {
+    "name": "Magellan Data",
+    "url": "https://magellandata.io"
+  },
+  "plugins": [
+    {
+      "name": "magellan-data",
+      "source": "./",
+      "description": "Corporate ownership intelligence — find parent companies, PE backers, corporate families, and portfolio siblings across your account list.",
+      "category": "sales-and-marketing"
+    }
+  ]
+}

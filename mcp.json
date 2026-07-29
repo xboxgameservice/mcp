@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "magellan-data": {
+      "url": "https://spotlight-mcp.magellandata.io/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MAGELLAN_API_KEY}"
+      }
+    }
+  }
+}

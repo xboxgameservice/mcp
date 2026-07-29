@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "magellanKey",
+      "description": "Magellan Data API key (mgln_sk_live_...)",
+      "password": true
+    }
+  ],
+  "servers": {
+    "magellan-data": {
+      "type": "http",
+      "url": "https://spotlight-mcp.magellandata.io/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:magellanKey}"
+      }
+    }
+  }
+}
